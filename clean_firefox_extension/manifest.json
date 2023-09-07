@@ -1,0 +1,34 @@
+
+{
+  "manifest_version": 2,
+  "name": "Виджет Отзывов Sites.Reviews",
+  "version": "1.0",
+  "description": "Показывает отзывы о сайте с Sites.Reviews",
+  "homepage_url": "http://sites.reviews",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Открыть отзывы с Sites.Reviews"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "gusevlive@vk.com",
+      "strict_min_version": "53.0"
+    }
+  }
+}
