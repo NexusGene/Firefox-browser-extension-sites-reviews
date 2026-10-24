@@ -27,7 +27,7 @@
   ],
   "applications": {
     "gecko": {
-      "id": "gusevlive@vk.com",
+      "id": "{8c406a59-52ce-430f-a62e-a0ae4017b6c9}",
       "strict_min_version": "53.0"
     }
   }
